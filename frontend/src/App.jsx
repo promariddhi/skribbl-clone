@@ -18,8 +18,8 @@ function App() {
   };
   
   return (
-    <><div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", height: "100vh", padding: "10px" }}>
-      <div style={{margin: "10px"}}>
+    <><div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", height: "90vh", padding: "10px" }}>
+      <div style={{display: "flex", flexDirection:'column', justifyContent: "space-between", alignItems: "flex-start", height: "90vh", padding: "10px"}}>
       <Canvas 
         selectedTool={selectedTool} 
         brushColor={brushColor} 
